@@ -8,7 +8,7 @@ export async function query({ query, values = [] }) {
     dbconnection = await mysql.createConnection({
       host: 'localhost',
       user: 'root',
-      password: 'Harry@123',
+      password: 'password',
       database: 'kulaabhooshanam_new',
       "keepAliveInitialDelay": 
       10000, "enableKeepAlive": true 
